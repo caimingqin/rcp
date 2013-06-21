@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Rcp
+Bundle-SymbolicName: com.orion.rcp; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.orion.rcp.Activator
+Bundle-Vendor: ORION
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.intro,
+ org.eclipse.ui.forms,
+ org.eclipse.swt
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
